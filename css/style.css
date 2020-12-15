@@ -1,0 +1,333 @@
+body{
+    margin: 0;
+    background: #0E0E0E;
+    font-family: Segoe UI;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.header {
+    padding-bottom: 46px;
+    background-image: url('../image/abstract-wallpapers-face.jpg');
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+.header img {
+    width: 91px;
+    margin-top: 53px;
+}
+.header h1 {
+    font-size: 53px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 99px;
+    margin-bottom: 0;
+}
+.header p {
+    width: 271px;
+    font-size: 11px;
+    color: #ffffff;
+    margin-top: 23px;
+    display: inline-block;
+    line-height: 20px;
+}
+.icon_chevron {
+    margin-top: 110px;
+}
+.icon_chevron i {
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 23px;
+    line-height: 20px;
+    padding: 7px 8px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.content_area{
+    padding-bottom: 77px;
+    background-image: url('../image/background-line.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+.content_area .content {
+    margin: 70px auto 0 auto;
+    width: 43%;
+}
+.content_area .content p {
+    text-align: center;
+    font-size: 19px;
+    color: #464b4f;
+    margin: 26px 0;
+}
+
+.about_head {
+    margin-top: 63px;
+}
+.about_head h1 {
+    font-size: 53px;
+    color: #464b4f;
+    text-align: center;
+    text-transform: uppercase;
+}
+.about_detail_div {
+    overflow: hidden;
+    width: 49%;
+    margin: auto;
+}
+.about_detail_div:after {
+    content: ' ';
+    display: block;
+    clear: both;
+
+}
+.about_detail_div .about_detail{
+    width: 31%;
+    float: left;
+    margin: 1%;
+}
+.about_detail_div .about_detail h4 {
+    font-size: 12px;
+    color: #464b4f;
+    margin: 0;
+}
+.about_detail_div .about_detail p {
+    color: #888a8b;
+    font-size: 12px;    
+}
+
+
+.my_work {
+    background: #24222F;
+    overflow: hidden;
+    padding-bottom: 77px;
+}
+.my_work .work_head {
+    margin-top: 67px;
+}
+.my_work .work_head h1 {
+    font-size: 53px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+.my_work_nav {
+    margin: 17px 0;
+}
+.my_work_nav ul {
+    width: 413px;
+    margin: auto;
+    padding: 0;
+}
+.my_work_nav ul::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.my_work_nav ul li {
+    float: left;
+    list-style: none;
+    margin: 0px 3.3%;
+}
+.my_work_nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 3px;
+}
+.active_nav {
+    border-bottom: 1px solid #7b77c9;
+}
+.my_work_nav ul li a:hover{
+    border-bottom: 1px solid #7b77c9;
+}
+.work_items_div {
+    width: 50%;
+    margin: auto;
+}
+.work_items_div::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.work_items_div .work_item {
+    width: 31.2%;
+    height: 276px;
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+.work_items_div .item_image {
+    width: 100%;
+    height: 200px;
+}
+.work_items_div .item_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.work_items_div .work_item h5 {
+    margin: 15px 0 0 0;
+    font-weight: normal;
+    color: #fff;
+    font-size: 15px;
+}
+.work_items_div .work_item p {
+    margin: 2px 0 0 0;
+    font-weight: normal;
+    color: #818baa;
+    font-size: 10px;
+}
+.see_btn {
+    text-align: center;
+    margin-top: 30px;
+}
+.see_btn a{
+    background: #7C77C9;
+    padding: 12px 43px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.photography{
+    background-image: url('../image/background-line.jpg');
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 77px;
+}
+.photography .div_photogr_head {
+    margin-top: 67px;
+}
+.photography .div_photogr_head h1{
+    font-size: 53px;
+    color: #535353;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+.div_photogr_contant {
+    margin: 28px auto 0 auto;
+    width: 42%;
+}
+.div_photogr_contant p {
+    text-align: center;
+    font-size: 21px;
+    color: #959595;
+    margin: 26px 0;
+}
+.my_photography_items{
+
+}
+.photography my_photography_items::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.photography .my_photography_items {
+    overflow: hidden;
+    width: 49%;
+    margin: auto;
+}
+.photography .my_photography_items .item_of_photography {
+    width: 31.2%;
+    height: 200px;
+    float: left;
+    margin: 1%;
+}
+.photography .my_photography_items .item_of_photography img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.subscribe_area {
+    overflow: hidden;
+    background: #24222F;
+    padding-bottom: 100px;
+}
+.image_icon {
+    text-align: center;
+    margin-top: 182px;
+}
+.image_icon img {
+    width: 4.5%;
+}
+.subs_req {
+    margin: 30px auto 0 auto;
+    width: 25%;
+}
+.subs_req p {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
+.sub_inp {
+    width: 34%;
+    margin: 39px auto;
+}
+.sub_inp input:nth-child(1) {
+    padding: 12px 15px;
+    width: 56%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.sub_inp input:nth-child(2) {
+    background: #7C77C9;
+    padding: 12px 9%;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #7c77c9;
+}
+
+
+.footer {
+    overflow: hidden;
+    background-image: url('../image/background-line.jpg');
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.footer_icon {
+    margin-top: 56px;
+}
+.footer_icon ul {
+    margin: auto;
+    width: 236px;
+    padding: 0;
+}
+.footer_icon ul::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.footer_icon ul li {
+    float: left;
+    list-style: none;
+}
+.footer_icon ul li {
+    float: left;
+    list-style: none;
+    margin: 0px 5.5%;
+}
+.footer_icon ul li a {
+    text-decoration: none;
+    display: block;
+}
+.footer_icon ul li a i {
+    padding: 4px;
+    font-size: 25px;
+    color: #aeaeae;
+}
+.copyright {
+    text-align: center;
+    margin-top: 38px;
+}
+.copyright p {
+    color: #848484;
+    font-size: 14px;
+}

@@ -1,0 +1,77 @@
+
+@media all and (max-width: 1159px){
+    .sub_inp {
+        width: 53%;
+    }
+}
+@media all and (max-width: 919px){
+    .work_items_div .work_item {
+        width: 47.9%;
+    }
+    .photography .my_photography_items .item_of_photography {
+        width: 47.9%;
+    }
+}
+@media all and (max-width: 768px){
+
+    .about_detail_div .about_detail {
+        width: 100%;
+    }
+    .work_items_div .work_item {
+        width: 98.9%;
+    }
+    .photography .my_photography_items .item_of_photography {
+        width: 98.9%;
+    }
+
+    .sub_inp {
+        width: 77%;
+    }
+    .sub_inp input:nth-child(1) {
+        width: 94%;
+        margin: 20px 0;
+    }
+    .sub_inp input:nth-child(2) {
+        display: block;
+        margin: auto;
+    }
+
+}
+@media all and (max-width: 437px){
+
+    .photography .div_photogr_head h1 {
+        font-size: 34px;
+    }
+    .div_photogr_contant {
+        width: 67%;
+    }
+    .photography .my_photography_items {
+        width: 71%;
+    }
+    .subs_req {
+        width: 54%;
+    }
+    .work_items_div {
+        width: 74%;
+    }
+    .my_work_nav ul {
+        text-align: center;
+    }
+    .my_work_nav ul li {
+        float: none;
+    }
+    .my_work_nav ul li a {
+        font-size: 17px;
+        margin: 20px 0;
+        display: block;
+    }
+    .content_area .content {
+        width: 80%;
+    }
+    .about_detail_div {
+        width: 67%;
+    }
+    .my_work_nav ul {
+        width: 278px;
+    }
+}
